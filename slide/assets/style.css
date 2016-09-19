@@ -1,3 +1,7 @@
+h3 {
+    color: green;
+}
+
 p, ul, ol {
 	text-align: justify;
 	font-size: 25px;

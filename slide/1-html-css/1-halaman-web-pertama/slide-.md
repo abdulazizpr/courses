@@ -1,30 +1,37 @@
-<!-- $theme: gaia -->
-<!-- $size: 16:9 --->
+<link rel="stylesheet" type="text/css" href="C:\makersinstitute\slide\assets\style.css" />
 
-![Makers Institute](https://makersinstitute.id/img/logo-makersinstitute.png)
+<!-- MULAI SLIDE -->
 
-# Membangun Halaman<br>Web Pertama
+<h1 class="section">HTML &amp; CSS &nbsp;&nbsp;</h1>
+
+<div class="container-icon">
+<img class="icon" src="http://images.all-free-download.com/images/graphiclarge/html_5_vector_logo_148263.jpg"><!--
+--><img class="icon" src="http://jaspreetchahal.org/images/css3.svg">
+</div>
+
+<h2 class="section">Halaman Web Pertama</h2>
+
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
 
 ---
-<!-- page_number: true -->
-<!-- *template: invert -->
-## Apa itu HTML & CSS?
 
----
+<h1 class="judul"> Apa itu HTML &amp; CSS? </h1>
 
 **HTML**, **H**yper**T**ext **M**arkup **L**anguage, mengatur struktur konten dan memberikan arti pada konten tersebut sebagai, misalkan, heading, paragraf, atau gambar.
 
 **CSS**, **C**ascading **S**tyle **S**heets, mengatur tampilan dari konten, misalnya, font atau warnanya.
 
-> HTML dan CSS sebaiknya berada pada file yang terpisah
+<br>
+
+> HTML dan CSS sebaiknya berada pada file yang terpisah.
+
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
 
 ---
-<!-- *template: invert -->
-## Istilah Dasar HTML
 
----
+<h1 class="judul"> Istilah Dasar HTML </h1>
 
-### Tag
+## Tag
 
 Tag terdiri dari kurung lancip buka `<`, nama tagnya dan kurung lancip tutup `>`. 
 
@@ -33,9 +40,13 @@ Tag terdiri dari kurung lancip buka `<`, nama tagnya dan kurung lancip tutup `>`
 <a>
 ```
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-### Elemen
+<h1 class="judul"> Istilah Dasar HTML </h1>
+
+## Elemen
 
 Elemen terdiri dari tag pembuka, konten dan tag penutup. Tag penutup adalah tag yang diberi tanda garis miring kanan `/` sebelum nama tag.
 
@@ -44,7 +55,11 @@ Elemen terdiri dari tag pembuka, konten dan tag penutup. Tag penutup adalah tag 
 <a> ... </a>
 ```
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
+
+<h1 class="judul"> Istilah Dasar HTML </h1>
 
 ## Atribut
 
@@ -58,12 +73,11 @@ Atribut adalah informasi tambahan dari elemen. Atribut ditulis dalam tag pembuka
 **Hasil**:
 <object data="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-1\index.html" width="860px" height="60px"> <embed src="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-1\index.html" width="860px" height="60px"> Error: Embedded data could not be displayed. </object>
 
----
-
-<!-- *template: invert -->
-## Struktur Dokumen
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
 
 ---
+
+<h1 class="judul"> Struktur Dokumen </h1>
 
 Dokumen HTML disimpan dengan ekstensi `.html`. 
 
@@ -77,9 +91,13 @@ Semua dokumen HTML memiliki struktur dasar yang mencakup elemen:
 * `<head>`
 * `<body>`.
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-### Tag `<!DOCTYPE html>`
+<h1 class="judul"> Struktur Dokumen </h1>
+
+## Tag `<!DOCTYPE html>`
 
 Deklarasi tipe dokumen, atau `<!DOCTYPE html>`, memberitahu browser bahwa HTML versi 5 yang kita gunakan. 
 
@@ -87,17 +105,25 @@ Deklarasi tipe dokumen, atau `<!DOCTYPE html>`, memberitahu browser bahwa HTML v
 
 > Kita dapat menggunakan versi yang lain, namun deklarasinya berbeda dan lebih panjang.
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-### Elemen `<html>`
+<h1 class="judul"> Struktur Dokumen </h1>
+
+## Elemen `<html>`
 
 Elemen HTML dapat bersarang, atau berada dalam elemen yang lain.
 
 Semua elemen HTML harus berada di dalam elemen `<html>`.
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-### Elemen `<head>`
+<h1 class="judul"> Struktur Dokumen </h1>
+
+## Elemen `<head>`
 
 Elemen `<head>` berisi metadata (informasi tentang halamannya), seperti: 
 * Judul dokumen (ditampilkan pada title bar pada browser)
@@ -106,9 +132,13 @@ Elemen `<head>` berisi metadata (informasi tentang halamannya), seperti:
 
 Konten di dalam elemen `<head>` tidak akan ditampilkan.
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-### Elemen `<body>`
+<h1 class="judul"> Struktur Dokumen </h1>
+
+## Elemen `<body>`
 
 Semua elemen yang dapat ditampilkan ke layar harus berada di dalam elemen `<body>`, seperti:
 * Link
@@ -117,7 +147,11 @@ Semua elemen yang dapat ditampilkan ke layar harus berada di dalam elemen `<body
 * Gambar
 * Dll
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
+
+<h1 class="judul"> Struktur Dokumen </h1>
 
 **Contoh**:
 ``` html
@@ -134,55 +168,68 @@ Semua elemen yang dapat ditampilkan ke layar harus berada di dalam elemen `<body
 </html>
 ```
 
+<br>
+
+
 > Tag `<meta charset="utf-8">` dalam elemen `<head>` memberitahu browser karakter yang kita gunakan.
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
+
+<h1 class="judul"> Struktur Dokumen </h1>
 
 **Hasil**:
 <object data="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-2\index.html" width="860px" height="140px"> <embed src="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-2\index.html" width="860px" height="140px"> Error: Embedded data could not be displayed. </object>
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-#### Elemen tanpa Tag Penutup
+<h1 class="judul"> Struktur Dokumen </h1>
+
+### Elemen tanpa Tag Penutup
 
 Ada beberapa elemen yang tidak perlu tag penutup. Konten yang diperlukan berasal dari atributnya saja. Salah satu contohnya yaitu elemen `<meta>`. Kontennya berasal dari atribut `charset`. Berikut beberapa contoh elemen tanpa tag penutup.
 
-<div class="container container-1-3">
-
-* `<br>`
-* `<img>`
-* `<meta>`
-* `<wbr>`
-
+<div class="container-1-3">
+	<ul>
+    	<li><code>&lt;br&gt;</code></li>
+        <li><code>&lt;img&gt;</code></li>
+        <li><code>&lt;meta&gt;</code></li>
+        <li><code>&lt;wbr&gt;</code></li>
+    </ul>
 </div><!--
---><div class="container container-1-3">
-
-* `<embed>`
-* `<input>`
-* `<param>`
-
+--><div class="container-1-3">
+	<ul>
+    	<li><code>&lt;embed&gt;</code></li>
+        <li><code>&lt;input&gt;</code></li>
+        <li><code>&lt;param&gt;</code></li>
+    </ul>
 </div><!--
---><div class="container container-1-3">
-
-* `<hr>`
-* `<link>`
-* `<source>`
-
+--><div class="container-1-3">
+	<ul>
+    	<li><code>&lt;hr&gt;</code></li>
+        <li><code>&lt;link&gt;</code></li>
+        <li><code>&lt;source&gt;</code></li>
+    </ul>
 </div>
-<div class="clear-fix"></div>
+
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
 
 ---
 
-#### Validasi Kode
+<h1 class="judul"> Struktur Dokumen </h1>
+
+### Validasi Kode
 
 W3C mempunyai validator HTML dan CSS untuk memeriksa kesalahan, sehingga kode kita dapat dijalankan untuk semua browser dan melatih kita untuk menulis kode dengan baik.
 
----
-
-<!-- *template: invert -->
-## Istilah Dasar CSS
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
 
 ---
+
+<h1 class="judul"> Istilah Dasar CSS </h1>
 
 ## Selektor
 
@@ -193,9 +240,13 @@ Selektor digunakan untuk memilih elemen HTML yang akan diberi style. Setelah sel
 p { ... }
 ```
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-### Properti
+<h1 class="judul"> Istilah Dasar CSS </h1>
+
+## Properti
 
 Properti yang ingin dihias ditulis di dalam kurung kurawal `{` dan `}`, dan diikuti dengan tanda titik dua `:`. 
 
@@ -207,9 +258,13 @@ p {
 }
 ```
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-### Nilai
+<h1 class="judul"> Istilah Dasar CSS </h1>
+
+## Nilai
 
 Setiap properti dapat kita beri nilai yang bersesuaian, yang ditulis setelah tanda titik dua `:` dan diakhiri dengan tanda titik-koma `;`. 
 
@@ -222,14 +277,13 @@ p {
 ```
 Kode ini akan memilih semua elemen `<p>`, mengubah warna tulisannya menjadi jingga, dan mengubah ukuran hurufnya menjadi 16 pixel.
 
----
-
-<!-- *template: invert -->
-## Bekerja Dengan Selektor
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
 
 ---
 
-### Selektor Tipe
+<h1 class="judul"> Bekerja dengan Selektor </h1>
+
+## Selektor Tipe
 
 Selektor tipe memilih elemen dari tipe elemennya. Contohnya jika kita ingin memilih semua elemen `<div>` maka kita gunakan selektor `div`.
 
@@ -244,9 +298,13 @@ div { ... }
 <div> ... </div>
 ```
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-### Selektor Class
+<h1 class="judul"> Bekerja dengan Selektor </h1>
+
+## Selektor Class
 
 Selektor Class memilih elemen berdasarkan atribut `class` dari elemen. Nilai dari atribut `class` dapat digunakan pada lebih dari 1 elemen dan pada tipe elemen yang berbeda. Selektornya yaitu tanda titik `.` kemudian diikuti dengan nilai dari atribut `class`.
 
@@ -261,9 +319,13 @@ Selektor Class memilih elemen berdasarkan atribut `class` dari elemen. Nilai dar
 <p class="keren"> ... </p>
 ```
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-### Selektor ID
+<h1 class="judul"> Bekerja dengan Selektor </h1>
+
+## Selektor ID
 
 Selektor ID lebih spesifik dari selektor class, yaitu hanya memilih elemen berdasarkan atribut `id`. Berbeda dengan `class`, dua elemen tidak dapat memiliki nilai atibut `id` yang sama. Selektornya yaitu tanda pagar `#` diikuti dengan nilai dari atribut `id`.
 
@@ -277,12 +339,15 @@ Selektor ID lebih spesifik dari selektor class, yaitu hanya memilih elemen berda
 <div id="danieljuvito"> ... </div>
 ```
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
+<br>
+
+> Masih banyak [selektor](http://www.w3schools.com/cssref/css_selectors.asp) yang dapat digunakan untuk kasus yang lainnya.
+
 ---
 
-<!-- *template: invert -->
-## Merujuk CSS
-
----
+<h1 class="judul"> Merujuk CSS </h1>
 
 File CSS memiliki ekstensi `.css` dan kita simpan satu folder dengan file HTML kita atau berada dalam subfolder.
 
@@ -290,7 +355,11 @@ Agar CSS dapat memberi style pada file HTML kita, maka file CSS tersebut harus d
 
 Elemen `<link>` digunakan untuk merujuk file yang lain. Karena yang dirujuk adalah file CSS maka kita spesifikan atribut `rel` menjadi `stylesheet`. Atribut `href` digunakan menentukan lokasi dari file CSS tersebut.
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
+
+<h1 class="judul"> Merujuk CSS </h1>
 
 **Contoh**:
 ```html
@@ -299,24 +368,27 @@ Elemen `<link>` digunakan untuk merujuk file yang lain. Karena yang dirujuk adal
 </head>
 ```
 
+<br>
+
 > Jika file CSS kita berada dalam subfolder `stylesheets` maka nilai dari atribut href haruslah `stylesheets/main.css`.
 
----
-
-<!-- *template: invert -->
-## Menggunakan CSS Reset
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
 
 ---
+
+<h1 class="judul"> Menggunakan CSS Reset </h1>
 
 Setiap browser mempunyai style default-nya. Untuk memastikan bahwa style yang kita gunakan dapat berjalan pada semua browser, maka CSS reset digunakan untuk me-reset semua style yang ada, seperti warna, margin, padding, ukuran, dan lain-lain.
 
-Karena sifat CSS yang kaskade maka CSS reset harus kita rujuk pertama kali.
+Karena sifat CSS yang cascade (menumpuk) maka CSS reset harus kita rujuk pertama kali.
 
 Ada beberapa jenis reset yang tersedia. Salah satu yang populer adalah [Eric Meyer's reset](http://meyerweb.com/eric/tools/css/reset/), yang sudah meliputi elemen HTML5.
 
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">
+
 ---
 
-## Rangkuman
+<h1 class="judul"> Rangkuman </h1>
 
 Hal yang sudah dipelajari: 
 * Perbedaan antara **HTML** dan **CSS**
@@ -326,19 +398,4 @@ Hal yang sudah dipelajari:
 * **Merujuk** CSS pada HTML
 * Nilai dari **CSS reset**
 
----
-
-<style>
-.container-1-3 {
-	float: left;
-    width: 33%;
-}
-
-.clear-fix {
-	clear: both;
-}
-
-blockquote {
-	background-color: #ffffb3;
-}
-</style>
+<img class="logo" src="C:\makersinstitute\slide\assets\makersinstitute-logo.png">

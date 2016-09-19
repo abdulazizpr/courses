@@ -3,7 +3,7 @@
 
 ![Makers Institute](https://makersinstitute.id/img/logo-makersinstitute.png)
 
-# Membangun Halaman<br>Web Pertama
+# Membangun Halaman Web Pertama
 
 ---
 <!-- page_number: true -->
@@ -12,7 +12,7 @@
 
 ---
 
-**HTML**, **H**yper**T**ext **M**arkup **L**anguage, mengatur struktur konten dan memberikan arti pada konten tersebut sebagai, misalkan, heading, paragraf, atau gambar.
+**HTML**, **H**yper<b>T</b>ext **M**arkup **L**anguage, mengatur struktur konten dan memberikan arti pada konten tersebut sebagai, misalkan, heading, paragraf, atau gambar.
 
 **CSS**, **C**ascading **S**tyle **S**heets, mengatur tampilan dari konten, misalnya, font atau warnanya.
 

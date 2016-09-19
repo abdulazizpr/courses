@@ -325,17 +325,3 @@ Hal yang sudah dipelajari:
 * Pemilihan elemen berbasis teks yang tepat untuk konten halaman kita.
 * Struktur elemen HTML5 dan bagaimana mengatur struktur konten dan halaman kita.
 * Bagaimana cara menggunakan hyperlink untuk berpindah antar halaman web atau situs web.
-
----
-
-<style>
-object {
-	border: solid;
-    border-color: grey;
-    border-width: 0.5px;
-	border-radius: 5px;
-    padding: 10px;
-    margin: 15px 0px;
-    width: 100%;
-}
-</style>

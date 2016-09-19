@@ -55,9 +55,6 @@ Atribut adalah informasi tambahan dari elemen. Atribut ditulis dalam tag pembuka
 <a href="http://makersinstitute.co.id/">Makers Institute</a>
 ```
 
-**Hasil**:
-<object data="https://gitlab.com/danieljuvito/html-css/blob/master/html-css/hasil/hasil-1-1/index.html" width="860px" height="60px"> <embed src="https://gitlab.com/danieljuvito/html-css/blob/master/html-css/hasil/hasil-1-1/index.html" width="860px" height="60px"> Error: Embedded data could not be displayed. </object>
-
 ---
 
 <!-- *template: invert -->
@@ -135,11 +132,6 @@ Semua elemen yang dapat ditampilkan ke layar harus berada di dalam elemen `<body
 ```
 
 > Tag `<meta charset="utf-8">` dalam elemen `<head>` memberitahu browser karakter yang kita gunakan.
-
----
-
-**Hasil**:
-<object data="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-2\index.html" width="860px" height="140px"> <embed src="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-2\index.html" width="860px" height="140px"> Error: Embedded data could not be displayed. </object>
 
 ---
 

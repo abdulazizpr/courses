@@ -88,11 +88,6 @@ Level heading harus digunakan dimana terdapat nilai semantiknya, dan tidak digun
 
 ---
 
-**Hasil**:
-<object data="C:\makersinstitute\slide\1-html-css\2-mendalami-html\hasil-1\index.html" width="860px" height="297px"> <embed src="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-1\index.html" width="860px" height="297px"> Error: Embedded data could not be displayed. </object>
-
----
-
 ### Paragraf
 
 Heading biasanya didukung oleh paragraf, yang didefinisikan oleh elemen level blok `<p>`.
@@ -105,11 +100,6 @@ Paragraf berisi informasi yang dibutuhkan dari halaman web kita.
 <p>In his address Steve urged graduates to follow their dreams and, despite any setbacks, to never give up&ndash;advice which he sincerely took to heart.</p>
 
 ```
-
----
-
-**Hasil**:
-<object data="C:\makersinstitute\slide\1-html-css\2-mendalami-html\hasil-2\index.html" width="860px" height="134px"> <embed src="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-2\index.html" width="860px" height="134px"> Error: Embedded data could not be displayed. </object>
 
 ---
 
@@ -130,9 +120,6 @@ Perbedaanya yaitu: elemen `<strong>` digunakan untuk teks yang bersifat penting.
 <p>This recipe calls for <b>bacon</b> and <b>baconnaise</b>.</p>
 ```
 
-**Hasil**:
-<object data="C:\makersinstitute\slide\1-html-css\2-mendalami-html\hasil-3\index.html" width="860px" height="98px"> <embed src="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-3\index.html" width="860px" height="98px"> Error: Embedded data could not be displayed. </object>
-
 ---
 
 ### Teks Cetak Miring dengan Menggunakan Emphasis
@@ -152,15 +139,10 @@ Perbedaannya yaitu: elemen `<em>` memberi tekanan emphasis pada tulisan, sedangk
 <p>The name <i>Shay</i> means a gift.</p>
 ```
 
-**Hasil**:
-<object data="C:\makersinstitute\slide\1-html-css\2-mendalami-html\hasil-4\index.html" width="860px" height="98px"> <embed src="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-4\index.html" width="860px" height="98px"> Error: Embedded data could not be displayed. </object>
-
 ---
 
 HTML5 memperkenalkan elemen struktur, yaitu: elemen `<header>`, `<nav>`, `<article>`,  `<section>`, `<aside>`, dan `<footer>`.
 Semuanya merupakan elemen level blok yang digunakan untuk tujuan struktur semantik.
-
-![](C:\makersinstitute\slide\assets\building-structure.png)
 
 ---
 
@@ -253,9 +235,6 @@ Sejajar dengan teks, salah satu unsur penting dari internet adalah hyperlink, da
 ``` html
 <a href="http://makersinstitute.id">Makers Institute</a>
 ```
-
-**Hasil**:
-<object data="C:\makersinstitute\slide\1-html-css\2-mendalami-html\hasil-5\index.html" width="860px" height="56px"> <embed src="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-5\index.html" width="860px" height="56px"> Error: Embedded data could not be displayed. </object>
 
 > Pada dasrnya, elemen level inline tidak dapat memuat elemen level blok. Tetapi pada HTML5, elemen level inline `<a>` diperbolehkan untuk memuat elemen level blok.
 

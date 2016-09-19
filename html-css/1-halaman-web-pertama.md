@@ -56,7 +56,7 @@ Atribut adalah informasi tambahan dari elemen. Atribut ditulis dalam tag pembuka
 ```
 
 **Hasil**:
-<object data="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-1\index.html" width="860px" height="60px"> <embed src="C:\makersinstitute\slide\1-html-css\1-halaman-web-pertama\hasil-1\index.html" width="860px" height="60px"> Error: Embedded data could not be displayed. </object>
+<object data="https://gitlab.com/danieljuvito/html-css/blob/master/html-css/hasil/hasil-1-1/index.html" width="860px" height="60px"> <embed src="https://gitlab.com/danieljuvito/html-css/blob/master/html-css/hasil/hasil-1-1/index.html" width="860px" height="60px"> Error: Embedded data could not be displayed. </object>
 
 ---
 

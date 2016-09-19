@@ -208,7 +208,7 @@ Contohnya yaitu dalam menggunakan elemen `<article>`, elemen `<aside>` dapat dig
 
 ---
 
-## Footer
+### Footer
 
 Elemen `<footer>` mengidentifikasikan penutup atau akhir dari halaman.
 Umumnya elemen `<footer>` berada pada bagian bawah dari parent.

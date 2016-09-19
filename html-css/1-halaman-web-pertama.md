@@ -19,6 +19,7 @@
 > HTML dan CSS sebaiknya berada pada file yang terpisah
 
 ---
+
 <!-- *template: invert -->
 ## Istilah Dasar HTML
 
@@ -46,7 +47,7 @@ Elemen terdiri dari tag pembuka, konten dan tag penutup. Tag penutup adalah tag 
 
 ---
 
-## Atribut
+### Atribut
 
 Atribut adalah informasi tambahan dari elemen. Atribut ditulis dalam tag pembuka setelah nama tag. 
 
@@ -163,7 +164,7 @@ W3C mempunyai validator HTML dan CSS untuk memeriksa kesalahan, sehingga kode ki
 
 ---
 
-## Selektor
+### Selektor
 
 Selektor digunakan untuk memilih elemen HTML yang akan diberi style. Setelah selektor diikuti dengan tanda kurung kurawal buka `{` dan tutup `}`. 
 

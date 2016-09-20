@@ -19,6 +19,7 @@ Elemen level inline mengambil lebar hanya selebar kontennya saja dan berada pada
 ### Display
 
 Bagaimana elemen ditampilkan bergantung dari properti `display`. Nilai yang umum untuk `display` adalah `block`, `inline`, `inline-block`, dan `none`. Nilai `block` akan mengubah elemen tersebut akan menjadi elemen level blok.
+
 ``` css
 p {
 	display: block;
@@ -26,6 +27,7 @@ p {
 ```
 
 Begitu juga `inline` akan mengubah elemen tersebut menjadi level inline.
+
 ``` css
 p {
 	display: inline;
@@ -33,6 +35,7 @@ p {
 ```
 
 Yang menarik adalah nilai `inline-block`. Elemen dengan nilai `inline-block` akan seperti elemen level blok, memenuhi sifat-sifat box model, tetapi elemen ini akan ditampilkan satu baris dengan elemen yang lainnya.
+
 ``` css
 p {
 	display: inline-block;
@@ -48,6 +51,7 @@ Elemen inline-blok tidak selalu ditampilkan menempel atau ditampilkan langsung a
 <hr>
 
 Yang terakhir yaitu nilai `none` akan menyembunyikan elemen dan menganggap elemen tersebut tidak ada. Elemen yang berada di dalam elemen ini juga akan disembunyikan.
+
 ``` css
 div {
   display: none;
@@ -61,6 +65,7 @@ Berdasarkan konsep [box model](http://css-tricks.com/the-css-box-model/), **seti
 ![http://www.w3.org/TR/CSS2/images/boxdim.png](http://www.w3.org/TR/CSS2/images/boxdim.png)
 
 Lebar dan tinggi dari kontennya dapat didefinisikan dari properti `display` atau dari properti `width` dan `height` elemennya. `padding` dan `border` memperluas dimensi dari persegi panjangnya ke luar dari lebar dan tinggi elemennya. Terakhir, `margin` yang kita tentukan akan mengikuti bordernya. **Contoh:**
+
 ``` css
 div {
   border: 6px solid #949599;
@@ -72,11 +77,13 @@ div {
 ```
 
 Berdasarkan box model, lebar total dari suatu elemen dapat dihitung dengan menggunakan rumus berikut:
+
 ```
 margin-right + border-right + padding-right + width + padding-left + border-left + margin-left
 ```
 
 Sedangkan untuk total tingginya dapat dihitung dengan menggunakan rumus:
+
 ```
 margin-top + border-top + padding-top + height + padding-bottom + border-bottom + margin-bottom
 ```
@@ -94,6 +101,7 @@ Setiap elemen mempunyai lebar dan tinggi secara default. Mungkin 0 pixel, tetapi
 #### Lebar
 
 Lebar secara default dari elemen tergantung pada nilai `display`. Elemen level blok secara default memiliki lebar `100%` mengisi tempat yang ada secara horizotal. Elemen level inline dan inline-blok akan memiliki lebar selebar kontennya. Elemen level inline tidak meiliki ukuran yang tetap, jadi properti `width` dan `height` hanya untuk elemen non-inline. **Contoh:**
+
 ``` css
 div {
   width: 400px;
@@ -103,6 +111,7 @@ div {
 #### Tinggi
 
 Secara default, tinggi dari elemen tergantung dari kontennya. Elemen akan menyesuaikan secara vertikal sesuai dengan timggi kontennya. **Contoh:**
+
 ``` css
 div {
   height: 100px;
@@ -124,6 +133,7 @@ Tergantung dari elemennya, browser akan memberikan margin dan padding secara def
 #### Margin
 
 Properti `margin` menentukan ruang kosong disekitar elemen tersebut. Margin berada di luar border dan memiliki warna yang transparan. Margin dapat digunakan untuk menentukan posisi elemen pada halaman. Atau menentukan jarak ke elemen yang lainnya. **Contoh:**
+
 ``` css
 div {
   margin: 20px;
@@ -135,6 +145,7 @@ Margin secara vertikal dari properti `margin` yaitu `top` dan `bottom` tidak dit
 #### Padding
 
 Properti `padding` sangat mirip dengan properti `margin`; perbedaannya yaitu padding berada di dalam border elemen. Properti `padding` digunakan untuk membuat spasi secara langsung di dalam elemen. **Contoh:**
+
 ``` css
 div {
   padding: 20px;
@@ -158,6 +169,7 @@ Margin dan padding bekerja secara normal untuk elemen blok dan inline-blok.
 Pada CSS terdapat lebih dari satu cara untuk mendeklarasi nilai dari suatu properti. Kita dapat menggunakan versi panjang, mendefinisikan satu-satu setiap properti secara terpisah. Atau kita dapat menggunakan versi singkat, mendefinisikan semua nilainya hanya pada satu properti. Tidak semua properti mempunyai versi pendeknya.
 
 Properti `margin` dan `padding` memiliki versi panjang dan versi pendek. Untuk mendefinisikan nilai yang sama untuk semua sisi, maka kita berikan satu nilai.
+
 ``` css
 div {
   margin: 20px;
@@ -165,6 +177,7 @@ div {
 ```
 
 Jika kita ingin memberikan satu nilai untuk `top` dan `bottom` dan nilai yang lainnya untuk `left` dan `right` dari elemennya, maka kita berikan dua nilai: nilai yang pertama untuk `top` dan `bottom`, kemudian nilai untuk `left` dan `right`. Berikut kita berikan margin 10 pixel untuk `top` dan `bottom`, dan margin 20 pixel untuk `left` dan `right`.
+
 ``` css
 div {
   margin: 10px 20px;
@@ -172,6 +185,7 @@ div {
 ```
 
 Untuk memberikan nilai untuk masing-masing sisi, maka kita berikan nilai tersebut secara berurutan dari `top`, `right`, `bottom`, dan `left`, bergerak searah jarum jam. Berikut kita berikan margin 10 pixel untuk `top`, 20 pixel untuk `right`, 0 pixel untuk `bottom` dan 15 pixel untuk `left`.
+
 ``` css
 div {
   margin: 10px 20px 0 15px;
@@ -198,6 +212,7 @@ Properti `margin` dan `padding` benar-benar transparan dan tidak menerima nilai 
 Border berada di antara padding dan margin, memberikan garis batas di sekitar elemen. Properti `border` menerima tiga nilai: `width`, `style`, dan `color`. Versi Singkat dari properti `border` terdiri dari urutan tersebut&mdash;`width`, `style`, `color`. Pada versi panjang, tiga nilai ini dapat dipecah menjadi properti `border-width`, `border-style`, dan `border-color`.
 
 Border memiliki beberapa penampilan. Style yang paling umum digunakan adalah `solid`, `double`, `dashed`, `dotted`, dan `none`, tetapi masih ada pilihan yang lainnya. **Contoh:**
+
 ``` css
 div {
   border: 6px solid #949599;
@@ -207,6 +222,7 @@ div {
 #### Sisi Border secara Individual
 
 Seperti properti `margin` dan `padding`, border dapat diletakan pada satu sisi saja. Kita memerlukan properti: `border-top`, `border-right`, `border-bottom`, dan `border-left`. Nilai dari properti ini sama dengan properti `border` itu sendiri: `width`, `style`, dan `color`. Kita ingin memberikan border hanya pada sisi bawah:
+
 ``` css
 div {
   border-bottom: 6px solid #949599;
@@ -214,6 +230,7 @@ div {
 ```
 
 Sebagai tambahan, style dari satu sisi border dapat dikendalikan tersendiri. Kita ingin mengganti lebar border bagian bawah:
+
 ``` css
 div {
   border-bottom-width: 12px;
@@ -223,6 +240,7 @@ div {
 #### Jari-Jari Border
 
 Properti `border-radius` dapat membuat sudut dari elemen menjadi melengkung. Properti `border-radius` menerima unit panjang, termasuk persentase dan pixel, yang akan menentukan jari-jari dari sudut elemen  yang akan dilengkungkan. Satu nilai akan melengkungkan semua sudut. Dua nilai akan melengkungkan `top-left`/`bottom-right` dan `top-right`/`bottom-left` sesuai urutan tersebut. Empat nilai akan melengkungkan `top-left`, `top-right`, `bottom-right`, dan `bottom-left` sesuai urutan tersebut, searah jarum jam.
+
 ``` css
 div {
   border-radius: 5px;
@@ -230,6 +248,7 @@ div {
 ```
 
 Properti `border-radius` dapat dipecah menjadi properti versi panjang untuk mengganti jari-jari dari sudut tertentu. Properti versi panjang ini dimulai dari `border`, kemudian diikuti oleh sudut lokasi vertikal (`top` atau `bottom`) dan sudut lokasi horizontal (`left` atau `right`), dan diakhiri dengan `radius`. Kita ganti jari-jari dari sudut kanan atas:
+
 ``` css
 div {
   border-top-right-radius: 5px;
@@ -243,6 +262,7 @@ Box model, dapat diubah untuk memberikan perhitungan yang berbeda. CSS3 memperke
 #### Nilai `content-box`
 
 Nilai `content-box` merupakan nilai default. Ukuran dari elemennya adalah penjumlahan dari `width` atau `height`, lalu `padding`, `border`, dan juga `margin`.
+
 ``` css
 div {
   -webkit-box-sizing: content-box;
@@ -251,11 +271,18 @@ div {
 }
 ```
 
+<hr>
+
+###### Properties &amp; Nilai Sesuai Browser
+
+<hr>
+
 #### Nilai `padding-box`
 
 Nilai `padding-box` mengikutsertakan nilai dari `padding` pada `width` dan `height` dari elemen tersebut. Ketika menggunakan nilai `padding-box`, elemen yang memiliki `width` 400 pixel dan `padding` 20 pixel akan tetap mempunyai lebar sebesar 400 pixel. Untuk nilai `padding` yang semakin besar maka ukuran konten akan menyusut untuk menyesuaikan dengan lebarnya.
 
 Jika kita tambahkan `border` dan `margin`, nilai tersebut akan ditambahkan dengan properti `width` atau `height` untuk menghitung ukuran box secara penuh. Sebagai contoh jika kita tambahkan `border` 10 pixel dan `padding` 20 pixel di setiap sisi dari elemen yang memiliki `width` 400 pixel, maka lebar total yang sebenarnya adalah 420 pixel.
+
 ``` css
 div {
   box-sizing: padding-box;
@@ -263,3 +290,27 @@ div {
 ```
 
 #### Nilai `border-box`
+
+Nilai `border-box` membuat nilai dari properti `border` dan `padding` termasuk dalam `width` dan `height` dari elemen tersebut. Ketika menggunakan nilai `border-box`, jika sebuah elemen memiliki `width` 400 pixel, `padding` 20 pixel untuk setiap sisi, dan `border` 10 pixel untuk setiap sisi, maka lebar dari elemen tersebut akan tetap 400 pixel.
+
+Nilai dari `margin` harus ditambahkan untuk menghitung lebar total dari elemen tersebut jika kita menambahkan margin.
+
+``` css
+div {
+  box-sizing: border-box;
+}
+```
+
+#### Memilih Box Size
+
+Secara umum, nilai dari `box-sizing` yang terbaik adalah `border-box`, karena ukuran elemennya akan tetap untuk berapapun nilai `padding` dan `border`. Termasuk jika menetapkan `width` dengan menggunakan persentase, maka ukurannya akan tetap.
+
+Kekurangannya hanya properti `box-sizing` belum didukung oleh semua browser, terutama untuk browser yang tua. Tetapi hal tersebut dapat teratasi dengan adanya update dari browser-browser tersebut.
+
+## Developer Tools
+
+Hampir semua browser memiliki _Developer Tools_. Tools ini
+
+$$ x^2 + 2x + 1 = 0 $$
+
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>

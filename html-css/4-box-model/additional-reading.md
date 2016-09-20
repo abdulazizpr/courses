@@ -82,8 +82,8 @@ margin-top + border-top + padding-top + height + padding-bottom + border-bottom 
 ```
 
 Dengan menggunakan rumus yang ada di atas, kita dapat menghitung lebar total dan tinggi total pada contoh kita diatas:
-**Lebar:** `492px = 20px + 6px + 20px + 400px + 20px + 6px + 20px`
-**Tinggi:** `192px = 20px + 6px + 20px + 100px + 20px + 6px + 20px`
+__Lebar:__ `492px = 20px + 6px + 20px + 400px + 20px + 6px + 20px`
+__Tinggi:__ `192px = 20px + 6px + 20px + 100px + 20px + 6px + 20px`
 
 ### Lebar &amp; Tinggi
 

@@ -309,8 +309,21 @@ Kekurangannya hanya properti `box-sizing` belum didukung oleh semua browser, ter
 
 ## Developer Tools
 
-Hampir semua browser memiliki _Developer Tools_. Tools ini
+Hampir semua browser memiliki _Developer Tools_. Dengan tools ini, kita dapat melihat elemen HTML yang ada di suatu halaman, dan melihat properti CSS yang dikenakan. Tools ini juga mengikutsertakan diagram box model untuk menampilkan perhitungan ukuran dari suatu elemen.
 
-$$ x^2 + 2x + 1 = 0 $$
+Untuk melihat Developer Tools pada Google Chrome, klik "view" pada menu bar, kemudian pilih "Developer" lalu "Developer Tools."
 
-<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+Klik pada kaca pembesar membuat kita dapat memilih elemen yang ada pada halaman untuk melihat informasi yang ada pada elemen tersebut.
+
+Setelah memilih elemen, pilih "Computed" pada panel bagian kanan. Maka akan ditampilkan box model dari elemen tersebut.
+
+![](http://learn.shayhowe.com/assets/images/courses/html-css/opening-the-box-model/developer-tools.png)
+
+## Rangkuman
+
+Hal yang sudah dipelajari:
+* Tampilan dari elemen
+* Apa itu box model dan mengapa penting
+* Mengubah ukuran, termasuk tinggi dan lebar dari elemen
+* Menambahkan margin, padding, dan border pada elemen
+* Mengubah box sizing dari elemen dan efeknya pada box model

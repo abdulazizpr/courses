@@ -3,7 +3,7 @@
 # MEAN Stack 
 
 1. **Week 1**
-    1. [Lesson 1 - Introduction to Git](#lesson-1)
+    1. <a href="#lesson-1">Lesson 1 - Introduction to Git</a>
     1. Lesson 2 - Pendahuluan HTML &amp; CSS
     1. Lesson 3 - Mengenal HTML
 1. **Week 2**

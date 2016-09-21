@@ -1,10 +1,10 @@
-
+![Makers Institute](https://makersinstitute.id/img/logo-makersinstitute.png)
 
 # MEAN Stack 
 
 1. **Week 1**
     1. Lesson 1 - Introduction to Git
-    1. Lesson 2 - Introduction to HTML &amp; CSS
+    1. Lesson 2 - Pendahuluan HTML &amp; CSS
     1. Lesson 3 - Mengenal HTML
 1. **Week 2**
     1. Lesson 4 - Mengenal CSS
@@ -28,7 +28,7 @@
         * Homeworks
             * github/makersinstitute/git-basic/homeworks.md
 
-    1. **Lesson 2 - Introduction to HTML &amp; CSS**
+    1. **Lesson 2 - Pendahuluan HTML &amp; CSS**
         * Objectives
 			* Perbedaan antara HTML dan CSS
 			* Berkenalan dengan tag, elemen, dan atribut dari HTML
@@ -85,9 +85,9 @@
 			* Box Model
 			* Developer Tools
         * Presentation
-            * 
+            * [Box Model](week-2/lesson-5/box-model.pdf)
         * Hands on
-            * 
+            * [Box Model](week-2/lesson-5/box-model.md)
         * Additional Reading
             * 
         * Homeworks
@@ -106,4 +106,3 @@
         * Additional Reading
             * 
         * Homeworks
-            * 

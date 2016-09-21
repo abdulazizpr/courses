@@ -26,8 +26,12 @@
 	* Nilai panjang yang berbeda pada CSS, meliputi pixel, persentase, dan em
 
 1. ### Box Model
-	* Tampilan dari elemen
-	* Apa itu box model dan mengapa penting
-	* Mengubah ukuran, termasuk tinggi dan lebar dari elemen
-	* Menambahkan margin, padding, dan border pada elemen
-	* Mengubah box sizing dari elemen dan efeknya pada box model
+	* Menampilkan Elemen
+	* Box Model
+	* Developer Tools
+
+1. ### Mengatur Posisi Konten
+	* Mengatur Posisi dengan Float
+	* Mengatur Posisi dengan Inline-Blok
+	* Membuat Layout yang Dapat Dipakai Ulang
+	* Menempatkan Elemen Secara Unik

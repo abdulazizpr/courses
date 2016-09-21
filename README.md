@@ -100,9 +100,10 @@
 			* Membuat Layout yang Dapat Dipakai Ulang
 			* Menempatkan Elemen Secara Unik
         * Presentation
-            * 
+            * [Mengatur Posisi Konten](week-2/lesson-6/mengatur-posisi-konten.pdf)
         * Hands on
-            * 
+            * [Mengatur Posisi Konten](week-2/lesson-6/mengatur-posisi-konten.md)
         * Additional Reading
             * 
         * Homeworks
+        	* 

@@ -5,11 +5,15 @@
 1. [**Week 1**](#week-1)
     1. [Lesson 1 - Introduction to Git](#lesson-1)
     1. [Lesson 2 - Pendahuluan HTML &amp; CSS](#lesson-2)
-    1. [Lesson 3 - Mengenal HTML](#lesson-2)
+    1. [Lesson 3 - Mengenal HTML](#lesson-3)
+
 1. [**Week 2**](#week-2)
-    1. [Lesson 4 - Mengenal CSS](#lesson-3)
-    1. [Lesson 5 - Box Model](#lesson-4)
-    1. [Lesson 6 - Mengatur Posisi Konten](#lesson-5)
+    1. [Lesson 4 - Mengenal CSS](#lesson-4)
+    1. [Lesson 5 - Box Model](#lesson-5)
+    1. [Lesson 6 - Mengatur Posisi Konten](#lesson-6)
+
+1. [**Week 3**](#week-3)
+    1. [Lesson 7 - Bekerja dengan Tipografi](#lesson-7)
 
 <hr>
 
@@ -94,4 +98,18 @@
         * Additional Reading
             * 
         * Homeworks
-        	* 
+
+1. **Week 3**<a name="week-3"></a>
+    1. **Lesson 7 - Mengenal CSS**<a name="lesson-7"></a>
+        * Objectives
+			* Memberi Warna pada Teks
+			* Mengubah Properti Font
+			* Menerapkan Properti Text
+			* Menyisipkan Font Web
+			* Memuat Rujukan &amp; Kuotasi
+        * [Presentation](week-3/lesson-7/bekerja-dengan-tipografi.pdf)
+        * [Hands on](week-3/lesson-7/bekerja-dengan-tipografi.md)
+        * Additional Reading
+            * 
+        * Homeworks
+            * 

@@ -15,6 +15,7 @@
 * [Week 3](#week-3)
 	* [Lesson 7 - Bekerja dengan Tipografi](#lesson-7)
 	* [Lesson 8 - Mengatur Latar Belakang &amp; Gradien](#lesson-8)
+	* [Lesson 9 - Membuat List](#lesson-9)
 
 <hr>
 
@@ -78,9 +79,11 @@
 
 **Lesson 5 - Box Model**<a name="lesson-5"></a>
 * Objectives
-    * Menampilkan Elemen
-    * Box Model
-    * Developer Tools
+    * Tampilan dari elemen
+	* Apa itu box model dan mengapa penting
+	* Mengubah ukuran, termasuk tinggi dan lebar dari elemen
+	* Menambahkan margin, padding, dan border pada elemen
+	* Mengubah box sizing dari elemen dan efeknya pada box model
 * [Presentation](week-2/lesson-5/box-model.pdf)
 * [Hands on](week-2/lesson-5/box-model.md)
 * Additional Reading
@@ -90,10 +93,11 @@
 
 **Lesson 6 - Mengatur Posisi Konten**<a name="lesson-6"></a>
 * Objectives
-    * Mengatur Posisi dengan Float
-    * Mengatur Posisi dengan Inline-Blok
-    * Membuat Layout yang Dapat Dipakai Ulang
-    * Menempatkan Elemen Secara Unik
+    * Apa itu float dan cara menggunakannya untuk mengatur posisi konten
+	* Bagaimana cara menghilangkan dan memuat float
+	* Bagaimana cara memposisikan konten dengan menggunakan elemen inline-blok
+	* Bagaimana cara menghilangkan spasi kecil di antara elemen inline-blok
+	* Bagaimana cara memposisikan konten secara relatif dan absolut
 * [Presentation](week-2/lesson-6/mengatur-posisi-konten.pdf)
 * [Hands on](week-2/lesson-6/mengatur-posisi-konten.md)
 * Additional Reading
@@ -103,11 +107,11 @@
 ## Week 3<a name="week-3"></a>
 **Lesson 7 - Mengenal CSS**<a name="lesson-7"></a>
 * Objectives
-    * Memberi Warna pada Teks
-    * Mengubah Properti Font
-    * Menerapkan Properti Text
-    * Menyisipkan Font Web
-    * Memuat Rujukan &amp; Kuotasi
+    * Menambahkan warna pada tulisan
+	* Menerapkan properti berbasis `font`, seperti `font-family`, `font-size`, `font-style`, `font-weight`, dll.
+	* Menerapkan properti berbasis `text`, seperti `text-align`, `text-decoration`, `text-indent`, `text-shadow`, dll.
+	* Sejarah web-safe font dan cara menysipkan web font kita
+	* Bagaimana cara untuk membuat rujukan dan kuotasi
 * [Presentation](week-3/lesson-7/bekerja-dengan-tipografi.pdf)
 * [Hands on](week-3/lesson-7/bekerja-dengan-tipografi.md)
 * Additional Reading
@@ -116,13 +120,25 @@
 
 **Lesson 8 - Mengatur Latar Belakang &amp; Gradien**<a name="lesson-8"></a>
 * Objectives
-    * Menambahkan Warna Latar Belakang
-    * Menambahkan Gambar Latar Belakang
-    * Merancang Latar Belakang Gradien
-    * Menggunakan Banyak Gambar Latar Belakang
-    * Menjelajahi Properti Baru Latar Belakang
+    * Bagaimana cara menambahkan warna dan gambar latar belakang pada elemen
+	* Gradien CSS, baik linier ataupun radial, dan cara mengaturnya
+	* Bagaimana cara untuk menerapkan beberapa gambar latar belakang pada satu elemen
+	* Properti baru CSS3 yang dapat mengubah ukuran, area dan origin dari gambar latar belakang
 * [Presentation](week-3/lesson-8/mengatur-latar-belakang-&-Gradien.pdf)
 * [Hands on](week-3/lesson-8/mengatur-latar-belakang-&-Gradien.md)
+* Additional Reading
+    * 
+* Homeworks
+
+**Lesson 9 - Membuat List**<a name="lesson-9"></a>
+* Objectives
+    * Bagaimana cara membuat list tak berurutan, list berurutan, dan list deskripsi
+	* Bagaimana membuat list yang bersarang di dalam list lainnya
+	* Bagaimana cara mengubah style dan posisi dari penanda item list
+	* Bagaimana cara menggunakan gambar latar belakang sebagai penanda item list
+	* Bagaimana menampilkan list secara horizontal dengan menggunakan display dan float
+* [Presentation](week-3/lesson-9/membuat-list.pdf)
+* [Hands on](week-3/lesson-9/membuat-list.md)
 * Additional Reading
     * 
 * Homeworks
